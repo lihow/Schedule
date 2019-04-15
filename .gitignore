@@ -1,0 +1,10 @@
+*.sdf
+*.suo
+*.opensdf
+Setup
+Release
+ipch
+Debug
+Schedule/Debug
+Schedule/Release
+Schedule/schedule
