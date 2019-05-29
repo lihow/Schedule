@@ -200,7 +200,7 @@ void DiaryDlg::LoadDiary(HTREEITEM root, CString path){
 	tvsortcb.lpfnCompare = SortByFileName;
 	tvsortcb.lParam = (LPARAM)&m_ctDiraiesTree;
 	m_ctDiraiesTree.SortChildrenCB(&tvsortcb);
-	m_ctDiraiesTree.Expand(root, TVE_EXPAND);
+	//m_ctDiraiesTree.Expand(root, TVE_EXPAND);
 }
 
 void DiaryDlg::OnNMClickDiraiesTree(NMHDR *pNMHDR, LRESULT *pResult)

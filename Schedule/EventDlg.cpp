@@ -234,7 +234,7 @@ void EventDlg::OnBnClickedDayAfterTomButton()
 {
 	// TODO:  在此添加控件通知处理程序代码
 	m_csYear.Format("%d", m_iCurYear);
-	int daysOfMonth = dayOfMonths[m_iCurMonth];
+	int daysOfMonth = dayOfMonths[m_iCurMonth - 1];
 	m_csDay.Format("%02d", m_iDayOfMonth + 2);
 	//月末
 	if (daysOfMonth - m_iDayOfMonth <= 1){

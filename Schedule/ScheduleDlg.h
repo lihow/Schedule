@@ -22,7 +22,7 @@ public:
 	protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV 支持
 // 其他窗口
-	BOOL m_iMainType = 0;	//main interface type
+	int m_iMainType = 0;	//main interface type
 	CRect m_rectWorkspace;
 	EventDlg* m_dlgEvent;
 	ShortPlanDlg* m_dlgShortPlan;
