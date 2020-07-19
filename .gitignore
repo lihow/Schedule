@@ -2,7 +2,7 @@
 *.suo
 *.opensdf
 Setup
-Release
+Release/Schedule.pdb
 ipch
 Debug
 Schedule/Debug
